@@ -29,3 +29,14 @@ BigDecimal balance = new BigDecimal(new Random().nextDouble()).multiply(maxLimit
 BigDecimal balanceRounded = balance.setScale(0, RoundingMode.HALF_UP);
 ```
 
+## Результаты работы
+Если номер клиента начинается с 8 то валюта счета(currency) доллар - US
+![image](https://github.com/zotovaa18/newMock/assets/74878717/a8e276e7-7bfe-4511-ab37-e0684e80733f)
+
+Если номер клиента начинается с 9 то валюта счета(currency) евро - EU
+![image](https://github.com/zotovaa18/newMock/assets/74878717/a353ace7-2e32-4977-8d43-578b02be73f7)
+
+Если начинается с любой другой цифру то валюта счета(currency) рубль - RUB
+![image](https://github.com/zotovaa18/newMock/assets/74878717/2f85e172-efe9-4e60-86d9-11ce99fa1fd9)
+
+
